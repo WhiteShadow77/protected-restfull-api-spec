@@ -1,7 +1,7 @@
-###Vocation
+### Goal
 Practice with RESTfull APi, OpenApi-swagger specification, protection by Sanctum, request validation.
 
-###Description
+### Description
 Project "Storage of the categories in DB with manipulation through REST API". 
 DB stores a lot of names of category. Remote user can (using API) get registered, login/logout
 and manipulate the data:
@@ -18,7 +18,7 @@ checked for bearer token using behind Sanctum.
 Specification based on annotations in classes hierarchy. Specification allows: to see input, output interfaces;
 to input the data, make request and watch the result.
 
-###How to run
+### How to run
 * clone the repository
 * rename project to 74
 * ```docker-compose up -d```
